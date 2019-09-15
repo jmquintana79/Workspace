@@ -12,7 +12,9 @@ default:
 	@echo "Options:"
 	@echo "    make create      # Create a new project."
 	@echo "    make remove      # Remove a project."
-	@echo "    make list        # List the created projects."      
+	@echo "    make list        # List the created projects."
+	@echo "    make copy        # Copy project and data structure."
+	@echo "    make backup      # Build a zipped backup of the project."
 	@echo ""
 	
 ## create a new project
@@ -26,3 +28,11 @@ remove:
 ## list created projects
 list:
 	ls  ${PWD}/projects/
+
+## copy project and data
+copy:
+	${BASH} .scripts/copy.sh
+
+## project backup
+backup:
+	${BASH} .scripts/backup.sh
