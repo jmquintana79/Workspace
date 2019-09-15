@@ -1,3 +1,3 @@
 # README:
 
-This a basic template for a Python project. 
+This a basic creator of templates for Python projects working with data. 

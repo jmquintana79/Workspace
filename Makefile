@@ -3,7 +3,7 @@
 # @Last modified by:   juan
 # @Last modified time: 2019-01-29T12:06:37+09:00
 
-.PHONY: create remove
+.PHONY: create remove list
 
 ## COMMANDS ##
 
