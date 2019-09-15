@@ -1,0 +1,4 @@
+# pip3 install -r requirements.txt
+# example:
+#pandas==0.22.0
+#numpy==1.14.0
