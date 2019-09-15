@@ -3,7 +3,7 @@
 # @Last modified by:   juan
 # @Last modified time: 2019-01-29T12:06:37+09:00
 
-.PHONY: create remove list
+.PHONY: create remove list copy backup
 
 ## COMMANDS ##
 
