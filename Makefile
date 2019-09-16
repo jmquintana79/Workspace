@@ -3,7 +3,7 @@
 # @Last modified by:   juan
 # @Last modified time: 2019-01-29T12:06:37+09:00
 
-.PHONY: create remove list copy backup
+.PHONY: create remove list copy archive
 
 ## COMMANDS ##
 
@@ -14,7 +14,7 @@ default:
 	@echo "    make remove      # Remove a project."
 	@echo "    make list        # List the created projects."
 	@echo "    make copy        # Copy project and data structure."
-	@echo "    make backup      # Build a zipped backup of the project."
+	@echo "    make archive     # Build a zipped backup of the project."
 	@echo ""
 	
 ## create a new project
@@ -33,6 +33,6 @@ list:
 copy:
 	${BASH} .scripts/copy.sh
 
-## project backup
-backup:
+## project backup:
+archive:
 	${BASH} .scripts/backup.sh
