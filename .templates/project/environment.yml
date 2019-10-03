@@ -1,6 +1,6 @@
 name: template
 dependencies:
-  - python==3.6.0
+  - python==3.7.0
   - jupyter
   - scipy==1.1.0
   - pandas==0.23.4
